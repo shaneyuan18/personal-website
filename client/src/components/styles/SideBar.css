@@ -1,0 +1,14 @@
+.sidebar {
+  position: fixed;
+  top: 50vh;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+
+.sidebar a {
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
