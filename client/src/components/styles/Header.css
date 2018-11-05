@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  background: no-repeat center right fixed;
+  background-image: url(/img/wallpaper.jpg);
+  height:100vh;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+.header div {
+  margin: auto;
+  padding-bottom: 20vh;
+  color: white;
+}
+
+/* For mobile screens */
+@media screen and (max-width: 480px) {
+    .header {
+       margin-left: 0;
+    }
+}
