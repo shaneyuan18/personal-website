@@ -5,10 +5,10 @@ const Header = () => (
   <header className={styles.header}>
     <div>
       <h1>
-        Shane Yuan
+        Full Stack Engineer
       </h1>
       <span>
-        Software Engineer
+        Passionate in developing user friendly applications
       </span>
     </div>
   </header>
