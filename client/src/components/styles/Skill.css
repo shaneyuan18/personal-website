@@ -1,0 +1,50 @@
+.skill {
+  background-color: #88BDBC;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #4F4A4E;
+}
+
+.content {
+  padding: 40px 20%;
+}
+.content h2 {
+  margin-bottom: 20px;
+}
+.content hr {
+  border-color: #4F4A4E;
+  opacity: 0.3;
+  margin-bottom: 40px;
+}
+.content div {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.button {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #6E6658;
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #4F4A4E;
+}
+
+.columns {
+  display: flex;
+  text-align: left;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.columns ul {
+  list-style-type: none;
+  padding: 0;
+}
