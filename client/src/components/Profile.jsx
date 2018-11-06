@@ -3,13 +3,11 @@ import styles from './styles/Profile.css';
 
 const Profile = () => (
   <section id="profile" className={styles.profile}>
-    <div>
+    <div className={styles.content}>
       <h2>
         Profile
       </h2>
-      <span>
-        I am a San Francisco based Software Engineer
-      </span>
+      <hr />
       <div className={styles.column}>
         <div>
           <div className={styles.avatar}>
@@ -19,7 +17,7 @@ const Profile = () => (
         </div>
         <div className={styles.bio}>
           <h3>
-            About Me
+            About me
           </h3>
           <p>
             I'm currently working as a Software Engineering Teaching Associate at Hack Reactor, where I build full stack applications with talented people and mentoring new engineers. I graduated from

@@ -1,19 +1,27 @@
 .profile {
-  display: flex;
-  background-color: #D5D5D5;
-  height: 100vh;
+  background-color: #88BDBC;
+  min-height: 100vh;
   width: 100%;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  color: #4F4A4E;
 }
-.profile div {
-  margin: auto;
+
+.content {
+  padding: 40px 20%;
+}
+.content h2 {
+  margin-bottom: 20px;
+}
+.content hr {
+  border-color: #4F4A4E;
+  opacity: 0.3;
+  /* border: 1px; */
 }
 
 .column {
   display: flex;
   font-size: 10px;
-  padding: 0 100px;
 }
 .column div {
   text-align: left;
@@ -22,8 +30,8 @@
 .avatar {
   height: 120px;
   width: 120px;
-  /* min-height: 120px; */
   padding-right: 10px;
+  padding-top: 20px;
   padding-bottom: 100px;
 }
 
