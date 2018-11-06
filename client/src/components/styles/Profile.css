@@ -1,6 +1,6 @@
 .profile {
   display: flex;
-  background-color: rgb(171, 238, 227);
+  background-color: #D5D5D5;
   height: 100vh;
   width: 100%;
   text-align: center;
@@ -8,5 +8,32 @@
 }
 .profile div {
   margin: auto;
-  padding-bottom: 20vh;
+}
+
+.column {
+  display: flex;
+  font-size: 10px;
+  padding: 0 100px;
+}
+.column div {
+  text-align: left;
+}
+
+.avatar {
+  height: 120px;
+  width: 120px;
+  /* min-height: 120px; */
+  padding-right: 10px;
+  padding-bottom: 100px;
+}
+
+.avatar img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.bio {
+  padding: 10px;
 }
