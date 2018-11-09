@@ -10,9 +10,9 @@ const Experience = () => (
       <hr />
       <div className={styles.entry}>
         <div className={styles.leftCol}>
-          <h4>
+          <h3>
             Hack Reactor
-          </h4>
+          </h3>
           <p>
             Sep 2017 - Present
           </p>
@@ -28,9 +28,9 @@ const Experience = () => (
       </div>
       <div className={styles.entry}>
         <div className={styles.leftCol}>
-          <h4>
+          <h3>
             Epic Sciences
-          </h4>
+          </h3>
           <p>
             Oct 2016 - Dec 2017
           </p>
@@ -46,9 +46,9 @@ const Experience = () => (
       </div>
       <div className={styles.entry}>
         <div className={styles.leftCol}>
-          <h4>
+          <h3>
             Scripps Institution of Oceanography
-          </h4>
+          </h3>
           <p>
             Nov 2014 - Jan 2017
           </p>

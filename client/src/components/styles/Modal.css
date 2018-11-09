@@ -1,0 +1,27 @@
+.modalOverlay {
+  font-family: Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+}
+
+.modal {
+  position:fixed;
+  display: flex;
+  background: white;
+  width: 90%;
+  height: 90%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  vertical-align: middle;
+}
+
+.modalContent {
+  padding: auto;
+  margin: auto;
+}

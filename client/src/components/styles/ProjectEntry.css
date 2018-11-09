@@ -1,0 +1,38 @@
+.entry {
+  box-sizing: border-box;
+  float: left;
+  padding: 15px;
+  width: 50%;
+  font-size: 12px;
+}
+.entry figure {
+  position: relative;
+  /* overflow: hidden; */
+  margin: 0;
+  box-sizing: border-box;
+}
+.entry img {
+  /* object-fit: cover; */
+  width: 100%;
+  vertical-align: middle;
+}
+.entry > figure > figcaption {
+  position: absolute;
+  box-sizing: border-box;
+  visibility: hidden;
+  text-align: left;
+  padding: 5%;
+  overflow-wrap: break-word;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(79, 74, 78, 0.9);
+}
+
+.entry:hover > figure > figcaption {
+  visibility: visible;
+}
+.entry:hover > figure > img {
+  opacity: 0.5;
+}
