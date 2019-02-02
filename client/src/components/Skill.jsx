@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './styles/Skill.css';
+import pageStyles from './styles/Page.css';
 
 const Skill = () => (
-  <section id="skill" className={styles.skill}>
+  <section id="skill" className={`${styles.skill} ${pageStyles.page}`}>
     <div className={styles.content}>
       <h2>
         Skills

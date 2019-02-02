@@ -1,20 +1,6 @@
 .profile {
   background-color: #88BDBC;
-  min-height: 100vh;
-  width: 100%;
-  text-align: center;
   color: rgb(43, 39, 42);
-}
-
-.content {
-  padding: 40px 20%;
-}
-.content h2 {
-  margin-bottom: 20px;
-}
-.content hr {
-  border-color: #4F4A4E;
-  opacity: 0.3;
 }
 
 .column {

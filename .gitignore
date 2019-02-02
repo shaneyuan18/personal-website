@@ -1,2 +1,3 @@
 /node_modules/
 /client/dist/scripts/
+/client/dist/scripts/bundle.js

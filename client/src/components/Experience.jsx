@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './styles/Experience.css';
+import pageStyles from './styles/Page.css';
 
 const Experience = () => (
-  <section id="experience" className={styles.experience}>
+  <section id="experience" className={`${styles.experience} ${pageStyles.page}`}>
     <div className={styles.content}>
       <h2>
         Experience

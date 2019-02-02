@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './styles/Profile.css';
+import pageStyles from './styles/Page.css';
 
 const Profile = () => (
-  <section id="profile" className={styles.profile}>
+  <section id="profile" className={`${styles.profile} ${pageStyles.page}`}>
     <div className={styles.content}>
       <h2>
         Profile
